@@ -1,10 +1,17 @@
 ficheiros "SUIM_blip_itX.csv", "SUIM_blip2_itX.csv" e "SUIM_blipLC_itX.csv" contêm captions geradas pelo BLIP, BLIP2 e BLIPLongCap, respetivamente, e correspondem à iteração X (X entre 1 e 10).
 
+versão python 3.10.16
+
+clonar github: git clone https://github.com/patriciavdelgado/Janus.git
+
+instalar requirements: pip install -e .
+
+pip install pandas
+
 
 Janus-Pro 1B
 
 run: python JP1B_SUIM_10iterations.py
-
 
 
 Janus-Pro 7B
