@@ -1,4 +1,4 @@
-ficheiros "SUIM_blip_itX.csv", "SUIM_blip2_itX.csv" e "SUIM_blipLC_itX.csv" contêm captions geradas pelo BLIP, BLIP2 e BLIPLongCap, respetivamente, e correspondem à iteração X (X entre 1 e 10).
+A pasta SUIM_it1 contém ficheiros "SUIM_blip_itX.csv", "SUIM_blip2_itX.csv" e "SUIM_blipLC_itX.csv" que por sua vez contêm captions geradas pelo BLIP, BLIP2 e BLIPLongCap, respetivamente, e correspondem à iteração X (X entre 1 e 10).
 
 versão python 3.10.16
 
