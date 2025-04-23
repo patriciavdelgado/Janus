@@ -1,0 +1,12 @@
+ficheiros "SUIM_blip_itX.csv", "SUIM_blip2_itX.csv" e "SUIM_blipLC_itX.csv" contêm captions geradas pelo BLIP, BLIP2 e BLIPLongCap, respetivamente, e correspondem à iteração X (X entre 1 e 10).
+
+
+Janus-Pro 1B
+
+run: python JP1B_SUIM_10iterations.py
+
+
+
+Janus-Pro 7B
+
+run: python JP7B_SUIM_10iterations.py
