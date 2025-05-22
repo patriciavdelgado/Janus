@@ -20,6 +20,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 vl_gpt = vl_gpt.to(device)
 vl_chat_processor = VLChatProcessor.from_pretrained(model_path)
 
+print(f"Using device: {device}")
+
 @torch.inference_mode()
 def generate(
     mmgpt: MultiModalityCausalLM,
